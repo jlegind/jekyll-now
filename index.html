@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% comment %}
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -13,6 +13,7 @@ layout: default
       <br> ttt-rrr      
     </article>
   {% endfor %}
+{% endcomment %}  
   
   <div id="archives">
   {% for category in site.categories %}
