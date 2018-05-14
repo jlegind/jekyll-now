@@ -1,19 +1,7 @@
 ---
 layout: default
 ---
-{% comment %}
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.url }}/jekyll-now{{ post.url }}">{{ post.title }}</a></h1>
-      ttt-rrr<br>
-      {{ site.url }} siteurl <br>
-      {{ post.url }} posturl
-      <br> ttt-rrr      
-    </article>
-  {% endfor %}
-{% endcomment %}  
   
   <div id="archives">
   {% for category in site.categories %}
@@ -32,4 +20,4 @@ layout: default
     </div>
   {% endfor %}
   </div>
-  {% comment %}</div>{% endcomment %}
+  
