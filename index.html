@@ -8,13 +8,13 @@ layout: default
     <div class="archive-group">
       {% capture category_name %}{{ category }}{% endcapture %}
       <div id="#{{ category_name | slugize }}"></div>
-      <p>popopopop</p>
+      <p>popopopop  {{ category_name }}</p>
       {% comment %}
       <h3 class="category-head">{{ category_name }}</h3>
       <a name="{{ category_name | slugize }}"></a>
       {% for post in site.categories[category_name] %}
       <article class="archive-item">
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
       </article>
       {% endfor %}
       {% endcomment %}
