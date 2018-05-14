@@ -2,14 +2,15 @@
 ---
 
 <article class="post">
-  <h1>{{ post.title }}</h1>
+  <h1>{{ page.title }}</h1>
 
   <div class="entry">
+    ***
     {{ content }}
   </div>
 
   <div class="date">
-    Written on {{ post.date | date: "%B %e, %Y" }}
+    Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   
 </article>
