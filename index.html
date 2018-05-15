@@ -4,12 +4,13 @@ layout: default
 
   
   <div id="archives">
-  {% for category in site.categories %}
-    <div class="archive-group">
-      {% capture category_name %}{{ category }}{% endcapture %}
-      
-      <p>popopopop v5 {{ category_name }}</p>
-      {{ category_name }}
+      <ul class="category-cloud">
+    {% for category in site.categories %}
+        <a style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70  }}%" href="#{{ category | first | slugize }}">
+        &nbsp  {{ category | first | capitalize }} &nbsp
+        </a>
+    {% endfor %}
+    </ul>
       {% comment %}
       <h3 class="category-head">{{ category_name }}</h3>
       
