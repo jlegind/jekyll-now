@@ -6,9 +6,9 @@ layout: default
   
       <ul class="category-cloud">
     {% for category in site.categories %}
-        <a href="#{{ category | first | slugize }}">
+        
         <p>{{ category | first | capitalize }}</p>
-        </a>
+        
     {% endfor %}
     </ul>
       {% comment %}
