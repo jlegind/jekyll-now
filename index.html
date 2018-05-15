@@ -3,11 +3,11 @@ layout: default
 ---
 
   
-  <div id="archives">
+  
       <ul class="category-cloud">
     {% for category in site.categories %}
         <a style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70  }}%" href="#{{ category | first | slugize }}">
-        &nbsp  {{ category | first | capitalize }} &nbsp
+        {{ category | first | capitalize }}
         </a>
     {% endfor %}
     </ul>
@@ -23,7 +23,5 @@ layout: default
             
       {% endfor %}
       {% endcomment %}
-    </div>
-  {% endfor %}
-  </div>
+ 
   
