@@ -6,8 +6,8 @@ layout: default
   
       <ul class="category-cloud">
     {% for category in site.categories %}
-        <a style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70  }}%" href="#{{ category | first | slugize }}">
-        {{ category | first | capitalize }}
+        <a href="#{{ category | first | slugize }}">
+        <p>{{ category | first | capitalize }}</p>
         </a>
     {% endfor %}
     </ul>
