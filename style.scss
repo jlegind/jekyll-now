@@ -76,6 +76,22 @@ article {
   text-indent: 2em;
 }	
 
+table {
+  font-family: arial, sans-serif;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 a {
   color: $blue;
   text-decoration: none;
