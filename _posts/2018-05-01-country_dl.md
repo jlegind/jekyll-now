@@ -11,7 +11,7 @@ categories: 2018-01-01
     <th>Downloads</th>
     <th>Users</th>
   </tr>
-    {%for item in site.data.downloads_country.csv%}
+    {% for item in site.data.downloads_country.csv %}
   <tr>
     <td>{{ item.ISO }}</td>
     <td>{{ item.Records }}</td>
