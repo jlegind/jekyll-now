@@ -87,6 +87,9 @@ td, th {
   padding: 8px;
 }
 
+th {
+  font-weight: bold;
+}
 
 tr:nth-child(even) {
   background-color: #dddddd;
