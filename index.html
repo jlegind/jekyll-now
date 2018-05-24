@@ -7,9 +7,9 @@ layout: default
       <ul class="category-cloud">
     {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        <p>{{ category_name | capitalize }}</p>
+        <p><h3>{{ category_name | capitalize }}</h3></p>
         {% for post in site.categories[category_name] %}
-        <p class="iden"><h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% endfor %}
         
     {% endfor %}
