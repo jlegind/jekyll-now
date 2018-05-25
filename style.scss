@@ -72,6 +72,10 @@ span {
   background-color: #ddf4d6;
 }
 
+.pipe::after {
+  content: " | ";	
+}
+
 div.ind {
   text-indent: 3em;
 }
