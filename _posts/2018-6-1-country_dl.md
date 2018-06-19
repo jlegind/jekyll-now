@@ -8,7 +8,7 @@ categories: 2018-6-1
         <tr>
             <td>{{ item.ISO }}</td>
             <td>{{ item.Records }}</td>
-            <td>{{ item.downloads }}</td>
+            <td>{{ item.Downloads }}</td>
             <td>{{ item.Users }}</td>
         </tr>
             {% endfor %}
