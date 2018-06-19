@@ -1,7 +1,7 @@
 ---
 layout: post
-title: GBIF stats May
-categories: 2018-1-1
+title: GBIF stats June
+categories: 2018-6-1
 ---
 
 <table>
@@ -12,7 +12,7 @@ categories: 2018-1-1
 				<th>Users</th>
 		</tr>
 
-				{% for item in site.data.downloads_country %}
+				{% for item in site.data.downloads_country2018-06-01 %}
 
 		<tr>
 				<td>{{ item.ISO }}</td>
