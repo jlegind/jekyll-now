@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GBIF stats May
+title: GBIF download stats for May
 categories: 2018-1-1
 ---
 
