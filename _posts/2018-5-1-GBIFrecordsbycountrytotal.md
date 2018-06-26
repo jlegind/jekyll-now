@@ -1,5 +1,6 @@
 ---
 layout: post
+weight: 3
 title: GBIF records by country total
 categories: 2018-5-1
 ---
