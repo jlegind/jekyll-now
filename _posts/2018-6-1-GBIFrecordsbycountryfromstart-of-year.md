@@ -9,7 +9,7 @@ categories: 2018-6-1
 		<th>Count</th>
 		<th>Country</th>
 	</tr>
-{% for item in site.data.hive_count_in-year2018-05-01 %}
+{% for item in site.data.hive_count_in-year2018-06-01 %}
 	<tr>
 		<td>{{ item.Count }}</td>
 		<td>{{ item.Country }}</td>
