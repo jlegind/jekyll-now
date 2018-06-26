@@ -1,5 +1,6 @@
 ---
 layout: post
+weight: 2
 title: GBIF download stats for June
 categories: 2018-6-1
 ---
