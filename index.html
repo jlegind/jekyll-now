@@ -8,9 +8,12 @@ layout: default
     {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <p><h3>{{ category_name | capitalize }}</h3></p>
-        {% for post in site.categories[category_name] %}
-        <span class="bgcol"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>&nbsp;<br>
+        {% for weight in (1..4) %}            
+            {% for post in site.categories[category_name] %}
+                {% if post.weight == weight %}
+                <span class="bgcol"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>&nbsp;<br>
+                {% endif %}
+            {% endfor %}
         {% endfor %}
-        
     {% endfor %}
     </ul>
