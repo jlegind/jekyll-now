@@ -5,7 +5,7 @@ layout: default
   
   
       <ul class="category-cloud">
-    {% assign sort_cats = site.categories | reverse %}   
+    {% assign sort_cats = site.categories | sort %}   
     {% for category in sort_cats %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <p><h3>{{ category_name | capitalize }}</h3></p>
