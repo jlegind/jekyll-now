@@ -5,7 +5,7 @@ layout: default
   
   
       <ul class="category-cloud">
-    {% for category in site.categories %}
+    {% for category in site.categories order:descending %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <p><h3>{{ category_name | capitalize }}</h3></p>
         {% for weight in (1..4) %}            
