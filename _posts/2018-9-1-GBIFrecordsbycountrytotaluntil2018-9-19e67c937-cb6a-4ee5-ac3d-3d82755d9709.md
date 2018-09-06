@@ -1,0 +1,18 @@
+---
+layout: post
+weight: 3
+title: GBIF records by country total until 2018-9-1
+categories: 2018-9-1
+---
+<table>
+	<tr>
+		<th>Count</th>
+		<th>Country</th>
+	</tr>
+{% for item in site.data.GBIFrecordsbycountrytotaluntil2018-9-1 %}
+	<tr>
+		<td>{{ item.Count }}</td>
+		<td>{{ item.Country }}</td>
+	</tr>
+                     {% endfor %}
+</table>
