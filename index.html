@@ -9,7 +9,7 @@ layout: default
         # First the categories are sorted.
         # Then in the for loop they are reversed to show latest cat. first.
     {% endcomment %}  
-        <h3>TEST</h3>
+        
     {% assign sort_cats = site.categories | sort %}   
     {% for category in sort_cats reversed %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
