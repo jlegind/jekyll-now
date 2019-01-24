@@ -2,7 +2,7 @@
 layout: post
 weight: 2
 title: Gbif downloads 2018 up-until November
-categories: 2018-11-01
+categories: 2018-11-1
 ---
 <table>
 	<tr>

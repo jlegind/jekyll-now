@@ -2,7 +2,7 @@
 layout: post
 weight: 3
 title: GBIF records by country total until 2018-11-01
-categories: 2018-11-01
+categories: 2018-11-1
 ---
 <table>
 	<tr>
