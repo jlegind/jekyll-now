@@ -2,7 +2,7 @@
 layout: post
 weight: 2
 title: Gbif downloads 2018 up-until December
-categories: 2018-12-31
+categories: 2018-end-of-year
 ---
 <table>
 	<tr>
