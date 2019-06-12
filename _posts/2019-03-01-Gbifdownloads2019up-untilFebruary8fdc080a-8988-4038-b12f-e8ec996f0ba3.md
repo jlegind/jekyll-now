@@ -2,7 +2,7 @@
 layout: post
 weight: 2
 title: Gbif downloads 2019 up-until February
-categories: 2019-03-01
+categories: 2019-3-1
 ---
 <table>
 	<tr>
