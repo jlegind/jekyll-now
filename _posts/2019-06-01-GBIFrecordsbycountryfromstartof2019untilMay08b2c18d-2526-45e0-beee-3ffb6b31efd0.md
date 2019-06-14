@@ -2,7 +2,7 @@
 layout: post
 weight: 4
 title: GBIF records by country from start of 2019 until May
-categories: 2019-06-01
+categories: 2019-6-1
 ---
 <table>
 	<tr>
